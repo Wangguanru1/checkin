@@ -114,7 +114,7 @@ def main():
             j = safe_json(r)
             msg = j.get("message", "")
             msg_lower = msg.lower()
-
+            print(msg_lower)
             if "got" in msg_lower:
                 ok += 1
                 points = j.get("points", "-")
