@@ -146,7 +146,7 @@ def main():
     print(content)
     
     # 推送消息到所有服务
-    push_all(sendkey_deer, sendkey_sc, title, content)
+    push_all(sendkey_deer, sendkey_sc, lines, content)
 
 
 if __name__ == "__main__":
