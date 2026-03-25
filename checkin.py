@@ -137,7 +137,7 @@ def main():
             fail += 1
             status = "❌ 异常"
 
-        lines.append(f"{idx}. {email} | {status} | P:{points} | 剩余:{days}")
+        lines.append(f"P:{points} | 剩余:{days} | {email} | {status}")
         time.sleep(random.uniform(1, 2))
 
     title = f"GLaDOS 签到完成 ✅{ok} ❌{fail} 🔁{repeat}"
